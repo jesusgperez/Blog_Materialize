@@ -1,0 +1,38 @@
+/*----Estilos genéricos del body----*/
+body{
+  background: url(../img/background-mount.jpg) left top repeat;
+  width: 100%;
+}
+/*--------Estilos del header--------*/
+.header{
+  height: 150px;
+}
+.img-logo{
+  border-radius: 10px;
+}
+.nav-row{
+  margin-bottom: 0;
+}
+.icons-nav{
+  font-size: 15px !important;
+}
+.img-logo{
+  float: right;
+  margin-top: 15px;
+  width: 180px;
+  height: 130px;
+}
+.nav-style{
+  background: #42f5ec;
+}
+.btn-style{
+  background: #42a5f5;
+}
+.btn-style:hover{
+  background-color: #42f592 !important;
+  color: #000;
+}
+.header-title{
+  margin-top: 10px !important;
+  font-style: italic;
+}
