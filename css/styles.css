@@ -17,6 +17,10 @@ body{
 .icons-nav{
   font-size: 15px !important;
 }
+.text-nav{
+  display: inline-block;
+  margin: 0;
+}
 .img-logo{
   float: right;
   margin-top: 15px;
@@ -24,10 +28,11 @@ body{
   height: 130px;
 }
 .nav-style{
-  background: #42f5ec;
+  background: transparent;
+  box-shadow: none;
 }
 .btn-style{
-  background: #42a5f5;
+  background: #42f5ec;
 }
 .btn-style:hover{
   background-color: #42f592 !important;
@@ -129,4 +134,9 @@ body{
 /*---------Estilos de comentarios---------*/
 .card-comment-style{
   color: #fff;
+}
+@media all and (max-width:992px){
+  .img-logo{
+    width: 90%;
+  }
 }
