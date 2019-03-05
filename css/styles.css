@@ -126,3 +126,7 @@ body{
   border: 0.5px solid gray;
   height:0;
 }
+/*---------Estilos de comentarios---------*/
+.card-comment-style{
+  color: #fff;
+}
