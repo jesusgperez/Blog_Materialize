@@ -60,6 +60,7 @@ body{
 .img-style{
   height: 100% !important;
   transition: border 0.5s;
+  width: 100%;
 }
 .img-style:hover{
   border: 1px solid #fff;
@@ -80,7 +81,7 @@ body{
   height: 200px;
   border-radius: 5px;
   float: left;
-  margin-right: 10px;
+  margin-right: 24px;
 }
 .card-title{
   padding: 1px 24px 1px 24px;
@@ -102,4 +103,26 @@ body{
   content: " ";
   clear: both;
   display: block;
+}
+.card-sup{
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+.author-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title{
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+.divider{
+  border: 0.5px solid gray;
+  height:0;
 }
